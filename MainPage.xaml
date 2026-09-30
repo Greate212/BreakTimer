@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BreakTimer.MainPage" x:Name="ftmMain">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,50">
+
+            <Label x:Name="lblDisplayBreakSelected" Text=" " Padding="0, 50, 0, 0" FontSize="Large" HorizontalOptions="Center" />
+            <Label x:Name="lblDisplayBreakTime" Text="Select A Break" Padding="0, 25, 0, 0" FontSize="Large" HorizontalOptions="Center" />
+            
+            <Button x:Name="btnTakeFive" Text="Take Five" Margin="0, 75, 0, 0" Clicked="BtnTakeFive_OnClicked" />
+            <Button x:Name="btnTakeTen" Text="Take Ten" Margin="0, 25, 0, 0" Clicked="BtnTakeTen_OnClicked" />
+            <Button x:Name="btnTakeFifteen" Text="Take Fifteen" Margin="0, 25, 0, 0" Clicked="BtnTakeFifteen_OnClicked" />
+            
+            <Label Text="GoodeApps, LLC" FontSize="Small" Padding="0, 135, 0, 0" HorizontalOptions="Center"/>
+            
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
